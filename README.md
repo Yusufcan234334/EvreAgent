@@ -70,4 +70,4 @@ Ajanıma yeni bir şey öğretmek istediğimde `tools/` klasörüne gidip şöyl
 
 Dosyayı kaydettiğim an EvreAgent bu yeteneği Telegram sohbeti sırasında kullanmaya hazır hale geliyor.
 
-Developed by **Yusufcan**
+Developed by **Yusufcan234334**
