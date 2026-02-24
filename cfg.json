@@ -1,0 +1,4 @@
+{
+    "enable_background_tasks": false,
+    "background_interval_minutes": 5
+}

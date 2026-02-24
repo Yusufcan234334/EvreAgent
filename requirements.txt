@@ -1,0 +1,4 @@
+groq
+pyTelegramBotAPI
+requests
+duckduckgo-search

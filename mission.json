@@ -1,0 +1,10 @@
+{
+    "gorev_adi": "Dosya Çalıştırma Aracı Oluşturma",
+    "adimlar": [
+        "1. C:\\EvreAgent\\tools dizinine gidin",
+        "2. Yeni bir dosya oluşturun (örneğin run_tool.py)",
+        "3. Dosyaya basit bir Python scripti ekleyin: verilen dosya yolunu parametre alarak subprocess.run ile çalıştırın",
+        "4. Dosyanın çalıştığını test edin (örnek dosya yolu ile çalıştırın)",
+        "5. Gerekiyorsa izinleri ayarlayın ve komut satırından erişilebilir olmasını sağlayın"
+    ]
+}
