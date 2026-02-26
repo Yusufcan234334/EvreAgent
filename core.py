@@ -120,7 +120,7 @@ class TaskState:
         self._save()
 
 class EvreAgent:
-    def __init__(self, api_key="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", model_name="openai/gpt-oss-120b"):
+    def __init__(self, api_key="KEY_BURAYA", model_name="openai/gpt-oss-120b"):
         # Groq API bağlantısı
         self.client = Groq(api_key=api_key or os.environ.get("GROQ_API_KEY"))
         self.model_name = model_name
@@ -307,9 +307,6 @@ class EvreAgent:
         self.memory._save()
 
     def run(self, user_input):
-        """
-        Ana ajan döngüsü. Hiçbir eski özellik (araç kullanma, durum takibi vb.) çıkarılmadı.
-        """
         self.task_state.set_task(user_input)
 
         # Dinamik Araç Yükleme (Hot-Reload)
@@ -379,4 +376,5 @@ class EvreAgent:
             else:
                 # Model bir araç çağırmadıysa işlemi bitirmiştir, nihai cevabı döndür
                 self.task_state.complete_task()
+
                 return response_message.content
