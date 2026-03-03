@@ -1,4 +1,4 @@
-# EvreAgent: Kendi Otonom ve Modüler Asistanım
+# EvreAgent: Kendi Otonom ve Modüler Asistanın
 
 EvreAgent, başta Groq API olmak üzere farklı dil modelleriyle çalışabilen, tamamen modüler ve otonom hareket edebilen bir yapay zeka ajanıdır. Bu projeyi geliştirirken temel amacım; kolayca yeni yetenekler ekleyebildiğim, beni tanıyan ve karmaşık görevleri kendi başına planlayıp çözebilen bir asistan oluşturmaktı.
 
